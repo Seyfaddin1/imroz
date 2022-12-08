@@ -1,0 +1,81 @@
+.elementor {
+  margin-top: 30px;
+  border: 1px solid red;
+}
+.elementor .text-box {
+  min-height: 280px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.288);
+}
+.elementor .text-box i {
+  color: firebrick;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.elementor .company {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.elementor .company p {
+  padding: 20px;
+}
+
+.service-area {
+  margin-top: 30px;
+}
+.service-area .services-box {
+  text-align: center;
+}
+.service-area .services-box span {
+  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.service-area .services-box span h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.service-area .services-boxes {
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.493);
+  padding: 30px;
+  transition: 0.4s ease-in-out;
+  border-radius: 10px;
+}
+.service-area .services-boxes:hover {
+  transform: scale(1.08);
+}
+.service-area .services-boxes i {
+  font-size: 30px;
+  color: rgb(90, 12, 12);
+}
+.service-area .services-boxes h1 {
+  margin-bottom: 19px;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+.service-area .services-boxes p {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
